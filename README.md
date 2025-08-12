@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-template)
 
 # singularity-template
-Singularity recipe for GIMP.
+Singularity recipe for Papis.
 
 ## Installing the container on Bridges 2
 Copy the
@@ -14,9 +14,9 @@ Copy the
 * `SIF` file
 * and the `template` script
 
-to `/opt/packages/template/latest`.
+to `/opt/packages/papis/latest`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/template` as `latest.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/papis` as `latest.lua`.
 
 ## Building the image using the recipe
 ### To build the image locally

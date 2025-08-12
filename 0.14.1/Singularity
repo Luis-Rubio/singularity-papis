@@ -1,11 +1,9 @@
 Bootstrap: docker#
-#From: alpine
-#From: ubuntu:latest
-#From: debian:latest
+From: debian:latest
 
 %labels
-    MAINTAINER icaoberg
-    EMAIL icaoberg@psc.edu
+    MAINTAINER icaoberg, luism
+    EMAIL icaoberg@psc.edu, luism@psc.edu
     SUPPORT help@psc.edu
     REPOSITORY http://gitub.com/pscedu/singularity-template 
     COPYRIGHT Copyright © 2025 Pittsburgh Supercomputing Center. All Rights Reserved.
@@ -16,9 +14,9 @@ Bootstrap: docker#
     export LC_ALL=C.UTF-8
 
 %post
-    export DEBIAN_FRONTEND=noninteractive && apt-get update && \
-        apt-get install -y --no-install-recommends && apt-get clean && rm -rf /var/lib/apt/lists/*
+    apt updatae
+    apt-get -y install papis
 
 
 %runscript
-    exec <PATH-TO-TOOL> "$@"
+    papis $@"
