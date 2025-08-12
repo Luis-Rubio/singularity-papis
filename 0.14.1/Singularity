@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: debian:latest
+From: python:3.11-slim
 
 %labels
     MAINTAINER icaoberg, luism
@@ -14,10 +14,12 @@ From: debian:latest
     export LC_ALL=C.UTF-8
 
 %post
-    apt update
-    apt-get remove -y --purge python3-urllib3
-    apt-get -y install papis
-
+    apt-get update
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        && rm -rf /var/lib/apt/lists/*
+    python -m pip install --upgrade pip setuptools wheel
+    pip install papis
 
 %runscript
-    papis $@"
+    papis "$@"
