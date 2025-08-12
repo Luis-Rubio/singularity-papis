@@ -15,6 +15,7 @@ From: debian:latest
 
 %post
     apt update
+    apt-get remove -y --purge python3-urllib3
     apt-get -y install papis
 
 
