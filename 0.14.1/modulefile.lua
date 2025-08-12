@@ -1,5 +1,5 @@
 --
--- TEMPLATE VERSION modulefile
+-- papis 0.14.1 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: CATEGORY"
@@ -16,11 +16,11 @@ With Papis, you can search your library for books and papers, add documents and 
 
 To load the module type
 
-> module load template/VERSION
+> module load papis/0.14.1
 
 To unload the module type
 
-> module unload template/VERSION
+> module unload papis/0.14.1
 
 Tools included in this module are
 
