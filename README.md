@@ -1,18 +1,18 @@
-![Status](https://github.com/pscedu/singularity-template/actions/workflows/main.yml/badge.svg)
-![Status](https://github.com/pscedu/singularity-template/actions/workflows/pretty.yml/badge.svg)
-![Issue](https://img.shields.io/github/issues/pscedu/singularity-template)
-![forks](https://img.shields.io/github/forks/pscedu/singularity-template)
-![Stars](https://img.shields.io/github/stars/pscedu/singularity-template)
-![License](https://img.shields.io/github/license/pscedu/singularity-template)
+![Status](https://github.com/pscedu/singularity-papis/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-papis/actions/workflows/pretty.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-papis)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-papis)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-papis)
+![License](https://img.shields.io/github/license/pscedu/singularity-papis)
 
-# singularity-template
+# singularity-Papis
 Singularity recipe for Papis.
 
 ## Installing the container on Bridges 2
 Copy the
 
 * `SIF` file
-* and the `template` script
+* and the `papis` script
 
 to `/opt/packages/papis/latest`.
 
