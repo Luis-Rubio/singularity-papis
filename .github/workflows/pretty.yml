@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Install useful utilities
-      run: sudo pip install papis
+      run: apt install tree
 
     - name: Checking if LICENSE exists
       run: |
