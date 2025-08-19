@@ -5,7 +5,7 @@
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-papis)
 ![License](https://img.shields.io/github/license/pscedu/singularity-papis)
 
-# singularity-Papis
+# singularity-papis
 Singularity recipe for Papis.
 
 ## Installing the container on Bridges 2
